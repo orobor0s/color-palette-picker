@@ -1,0 +1,183 @@
+body {
+    background-color: #261c3e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper {
+    margin: 20px;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    margin: 10px;
+}
+
+p {
+    color: #aab9d2;
+    margin: 10px;
+}
+
+#color-palette {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #312848;
+    margin: 10px;
+    padding: 20px;
+    width: 710px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 726px) {
+    div.wrapper {
+        margin: 5%;
+    }
+    h1, p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #color-palette {
+        margin: 0;
+        padding: 5%;
+        width: 90%;
+    }
+}
+
+div.hex-codes {
+    width: 100px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+div.hex-codes:hover {
+    outline: solid cyan;
+    outline-offset: -2px;
+    cursor: pointer;
+}
+div.hex-codes:active {
+    outline: 5px solid red;
+    outline-offset: -4px;
+}
+
+#hex_dd7830 {
+    width: 100px;
+    height: 75px;
+    background-color: #dd7830;
+    color: black;
+    line-height: 75px;
+    text-align: center;
+}
+/* 
+this will be the general font color for most words
+headings will be white as white is about double the 
+contrast to the background
+*/
+#hex_cbcbd4 {
+    background-color: #cbcbd4;
+    color: black;
+}
+#hex_007acc {
+    background-color: #007acc;
+}
+#hex_333333 {
+    background-color: #333333;
+}
+#hex_252526 {
+    background-color: #252526;
+}
+#hex_5e42a6 {
+    background-color: #5e42a6;
+}
+#hex_4c4eac {
+    background-color: #4c4eac;
+}
+#hex_484aa3 {
+    background-color: #484aa3;
+}
+#hex_7552b5 {
+    background-color: #7552b5;
+}
+/* main background for site */
+#hex_261c3e { 
+    background-color: #261c3e;
+}
+#hex_312475 {
+    background-color: #312475;
+}
+#hex_953d75 {
+    background-color: #953d75;
+}
+#hex_493382 {
+    background-color: #493382;
+}
+#hex_e5e5e5 {
+    background-color: #e5e5e5;
+    color: black;
+}
+#hex_aab9d2 {
+    background-color: #aab9d2;
+    color: black;
+}
+#hex_1e1e1e {
+    background-color: #1e1e1e;
+}
+#hex_363737 {
+    background-color: #363737;
+}
+#hex_b74e91 {
+    background-color: #b74e91;
+}
+#hex_bb5797 {
+    background-color: #bb5797;
+}
+/* secondary background for cards and the like*/
+#hex_312848 { 
+    background-color: #312848;
+}
+#hex_754863 {
+    background-color: #754863;
+}
+#hex_ffffff {
+    background-color: #ffffff;
+    color: black;
+}
+#hex_d3d3d3 {
+    background-color: #d3d3d3;
+    color: black;
+}
+#hex_fffdd0 {
+    background-color: #fffdd0;
+    color: black;
+}
+#hex_ffd700 {
+    background-color: #ffd700;
+    color: black;
+}
+#hex_808000 {
+    background-color: #808000;
+    color: black;
+}
+#hex_008080 {
+    background-color: #008080;
+}
+#hex_0047ab {
+    background-color: #0047ab;
+}
+#hex_ffb6c1 {
+    background-color: #ffb6c1;
+    color: black;
+}
+#hex_ffa07a {
+    background-color: #ffa07a;
+    color: black;    
+}
+#hex_ffec88 {
+    background-color: #ffec88;
+    color: black;    
+}
+#hex_663399 {
+    background-color: #663399;
+}
